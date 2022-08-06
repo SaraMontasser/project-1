@@ -1,32 +1,134 @@
-.header{
+.header {
     padding: 20px;
-  text-align: center;
-  background: #ede397;
-  width: 100%;
-  margin-top: -20px;
-  margin-left: -10px;
+    text-align: center;
+    background: #ede397;
+    width: 100%;
+    margin-top: -20px;
+    margin-left: -32px;
 }
-.note{
+
+.note {
     margin-top: 20px;
 
 
 }
-.endtime{
+
+.endtime {
 
     font-size: 19px;
 
 }
-.importantText{
+
+.importantText {
     font-weight: bold;
 
 }
-.closebutton{
+
+.closebutton {
 
     right: 5px;
     margin-top: -10px;
     margin-right: 5px;
     position: absolute;
-    top:30px;
+    top: 30px;
     font-size: 15px;
     font-weight: lighter;
+}
+
+.logo {
+    width: 120px;
+    height: 70px;
+    margin-left: -5px;
+}
+
+.searchbar input[type=search] {
+    width: 775px;
+    height: 40px;
+    margin-left: 200px;
+    margin-top: -55px;
+    border-radius: 20px;
+    position: absolute;
+    z-index: -1;
+    padding-left: 35px;
+}
+
+.searchicon {
+    margin-left: 210px;
+    margin-top: -45px;
+    position: absolute;
+}
+
+.navBar {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 100%;
+    top: 126px;
+    left: -1px;
+    position: absolute;
+}
+.categories{
+    position: absolute;
+    margin-top: -47px;
+    margin-left: 111px;
+}
+.teachOnUdemy{
+    position: absolute;
+    margin-top: -47px;
+    margin-left: 1127px;
+}
+.udemyBussiness{
+    position: absolute;
+    margin-top: -47px;
+    margin-left: 990px;
+}
+.carticon {
+    margin-left: 1254px;
+    margin-top: -51px;
+    position: absolute;
+    font-size: 25px;
+}
+.login{
+    background-color: white;
+
+  border-color: black;
+  padding: 10px;
+  text-align: center;
+  font-size: 13px;
+  font-weight: bold;
+  right: 174px;
+  position: absolute;
+  margin-top: -60px;
+}
+.signup{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+    right: 85px;
+    position: absolute;
+    margin-top: -60px;
+}
+.langicon {
+    margin-left: 1500px;
+    margin-top: -46px;
+    position: absolute;
+    font-size: 17px;
+}
+.langicon {
+    position: absolute;
+    font-size: 18px;
+    margin-left: 1486px;
+    margin-top: -49px;
+}
+.langbutton{
+    margin-left: 1472px;
+    margin-top: -61px;
+    position: absolute;
+    background-color: white;
+    border-color: black;
+    padding: 15px;
+    text-align: center;
+    width: 44px;
+    height: 40px;
 }
