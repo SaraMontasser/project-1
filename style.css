@@ -9,126 +9,130 @@
 
 .note {
     margin-top: 20px;
-
-
 }
 
 .endtime {
-
     font-size: 19px;
-
 }
 
 .importantText {
     font-weight: bold;
-
 }
 
 .closebutton {
-
     right: 5px;
     margin-top: -10px;
     margin-right: 5px;
-    position: absolute;
     top: 30px;
     font-size: 15px;
     font-weight: lighter;
+    display: inline-block;
 }
 
 .logo {
-    width: 120px;
+    width: 80px;
     height: 70px;
-    margin-left: -5px;
+    vertical-align: middle;
+    margin-left: 23px;
 }
-
+.categories{
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    text-decoration: none;
+    color: black;
+}
+.udemyBussiness, .teachOnUdemy{
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    text-decoration: none;
+    color: black;
+}
 .searchbar input[type=search] {
-    width: 775px;
+    width: 50vw;
     height: 40px;
-    margin-left: 200px;
-    margin-top: -55px;
     border-radius: 20px;
-    position: absolute;
-    z-index: -1;
     padding-left: 35px;
 }
+.cart{
+    background-color: white;
+    padding: 18px 18px 18px 0px;
+    text-align: center;
+    font-size: 20px;
+    border: none; 
 
+}
+
+@media only screen and (max-width:800px) {
+
+    .rightside{
+        display: none;
+    }
+    
+}
 .searchicon {
-    margin-left: 210px;
-    margin-top: -45px;
+    /* display: none !important; */
     position: absolute;
+    margin-left: 1%;
+    margin-top: 0.8%;
 }
 
 .navBar {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     width: 100%;
-    top: 107px;
-    left: -1px;
     position: absolute;
+    margin-left: -8px;
 }
-.categories{
-    position: absolute;
-    margin-top: -47px;
-    margin-left: 111px;
-}
-.teachOnUdemy{
-    position: absolute;
-    margin-top: -47px;
-    margin-left: 1127px;
-}
-.udemyBussiness{
-    position: absolute;
-    margin-top: -47px;
-    margin-left: 990px;
-}
-.carticon {
-    margin-left: 1254px;
-    margin-top: -51px;
-    position: absolute;
-    font-size: 25px;
-}
-.login{
+
+
+.login {
     background-color: white;
 
-  border-color: black;
-  padding: 10px;
-  text-align: center;
-  font-size: 13px;
-  font-weight: bold;
-  right: 174px;
-  position: absolute;
-  margin-top: -60px;
+    border-color: black;
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+
 }
-.signup{
+
+.signup {
     background-color: black;
     color: white;
     padding: 10px;
     text-align: center;
-    font-size: 13px;
+    font-size: 15px;
     font-weight: bold;
-    right: 85px;
-    position: absolute;
-    margin-top: -60px;
+    
 }
-.langicon {
-    margin-left: 1500px;
-    margin-top: -46px;
-    position: absolute;
-    font-size: 17px;
-}
-.langicon {
-    position: absolute;
-    font-size: 18px;
-    margin-left: 1486px;
-    margin-top: -49px;
-}
-.langbutton{
-    margin-left: 1472px;
-    margin-top: -61px;
-    position: absolute;
+.langbutton {
     background-color: white;
-    border-color: black;
-    padding: 15px;
+    padding: 8.5px 9px 8.5px 9px;
     text-align: center;
-    width: 44px;
-    height: 40px;
+    font-size: 17px;
+    border-color: #000000;
+}
+
+.rightside {
+    float: left;
+    display: flexbox;
+    justify-content: space-between;
+}
+
+.middle {
+    float: left;
+    margin: 1% 2% 1% 2%;
+}
+
+.leftside {
+    float: left;
+    display: flexbox;
+    justify-content: space-between;
 }
