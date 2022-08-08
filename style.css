@@ -47,7 +47,36 @@ body{
     .rightside{
         display: none;
     }
-    
+    .line{
+        width: 30px;
+      height: 5px;
+      background-color: black;
+      margin: 6px 0;
+    display: block !important;
+    }
+    .categories{
+        display: none;
+    }
+    .logo{
+    margin-left: 15rem ;
+    margin-top: -3rem;
+    }
+
+    .searchbar{
+        display: none;
+    }
+}
+@media only screen and (max-width:1345px) {
+
+    .circlebutton{
+        display: none;
+    }
+    .arrow{
+        display: none;
+    }
+    .coursesboxes{
+        flex-direction: column;
+    }
 }
 .searchicon {
     /* display: none !important; */
@@ -107,13 +136,15 @@ body{
 
 .leftside {
     float: left;
-    display: flexbox;
+    display: flex;
     justify-content: space-between;
+    flex-direction: row;
 }
 .imgbanner{
     background-color: #f8f9fb;
     display: flex;
     justify-content: space-around;
+    flex-direction: row;
     width: 86vw;
     margin: 6% 0% 0% 6%;
     height: 39vh;
@@ -150,6 +181,7 @@ body{
     text-decoration: none;
     color: black;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     display: inline-block;
     margin-left: 5.8rem;
@@ -185,6 +217,7 @@ body{
 .coursesboxes{
     display: flex;
     justify-content: space-around;
+    flex-direction: row;
     margin-top: 2rem;
 }
 .pythonimg{
@@ -259,4 +292,8 @@ s,.visiting{
     padding: 0.2rem;
     font-size: 0.8rem;
     text-align: center;
+}
+.line{
+   
+  display: none;
 }
