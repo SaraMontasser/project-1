@@ -68,7 +68,7 @@ body {
         width: 30px;
         height: 5px;
         background-color: black;
-        margin: 6px 0;
+        margin: 6px 0 0 15px;
         display: block !important;
     }
 
@@ -77,26 +77,29 @@ body {
     }
 
     .logo {
-        margin-left: 15rem;
-        margin-top: -3rem;
+        margin-left: 17rem;
+        margin-top: -2.5rem;
     }
 
     .searchbar {
         display: none;
     }
-
-    .imgbanner {
-        display: block;
-        flex-direction: row;
+    .notes{
+        display: none;
     }
+    .notes2{
+        background-color: white;
+    display: block !important;
+    width: 85vw;
+    box-shadow: 0px 0px 8px 0px rgb(0 0 0 / 20%);
+    padding: 3%;
+    align-items: center;
+    margin: 1% auto;
 
-    .coursesblocks {
-        min-height: 258vh;
     }
-
 }
 
-@media only screen and (max-width:1345px) {
+@media only screen and (max-width:1523px) {
 
     .circlebutton {
         display: none;
@@ -104,6 +107,64 @@ body {
 
     .arrow {
         display: none;
+    }
+    .coursesblocks {
+        height: 115vh;
+    }
+}
+@media only screen and (max-width:1525px) {
+
+    .teachOnUdemy, .udemyBussiness{
+        display: none;
+    }
+}
+@media only screen and (max-width:1224px) {
+
+    .navBar{
+        height: 18vh !important;
+    }
+}
+@media only screen and (max-width:800px) {
+
+    .coursesblocks {
+        height: 280vh;
+    }
+    .navBar {
+    
+        height: 4vh !important;
+    }
+}
+@media only screen and (max-width:800px) {
+
+    
+    .clockimg {
+        width: 50vw !important;
+    }
+    
+}
+@media only screen and (max-width:500px) {
+
+    
+    .clockimg {
+        width: 70vw !important;
+    }
+}
+@media only screen and (max-width:928px) {
+
+    .coursesblocks {
+        height: 160vh;
+    }
+}
+@media only screen and (max-width:694px) {
+
+    .coursesblocks {
+        height: 170vh;
+    }
+}
+@media only screen and (max-width:628px) {
+
+    .coursesblocks {
+        height: 260vh;
     }
 }
 
@@ -114,9 +175,7 @@ body {
 .navBar {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     width: 100%;
-    margin-left: -8px;
-    top: 0px;
-    margin-bottom: 5%;
+    height: 11vh;
 }
 
 
@@ -150,8 +209,6 @@ body {
 
 .rightside {
     float: left;
-    display: flexbox;
-    justify-content: space-between;
 }
 
 .middle {
@@ -161,19 +218,19 @@ body {
 
 .leftside {
     float: left;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
 }
 
 .imgbanner {
     background-color: #f8f9fb;
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
     width: 86vw;
-    margin: 6% 0% 0% 6%;
+    margin: 3% auto;
     height: 39vh;
+    padding: 2% 2% 4% 4%;
+}
+.clockimg{
+    width: 30vw;
+    float: right;
+    margin-right: 10%;
 }
 
 .notes {
@@ -182,8 +239,10 @@ body {
     width: 33vw;
     box-shadow: 0px 0px 8px 0px rgb(0, 0, 0, 0.2);
     padding: 3%;
-    margin-left: -194%;
     align-items: center;
+}
+.notes2{
+    display: none;
 }
 
 .coursesnote {
@@ -195,6 +254,7 @@ body {
     width: 90%;
     display: block;
     margin: 0 auto;
+    box-shadow: 0px 0px 8px 0px rgb(0, 0, 0, 0.2);
 }
 
 .courses {
@@ -215,9 +275,8 @@ body {
     border-color: rgba(0, 0, 0, 0.303);
     border-style: solid;
     border-width: 0.1rem;
-    float: left;
-    padding: 1rem 2rem 1rem 2rem;
-    margin-left: 5.8rem;
+    padding: 1rem 0rem 1rem 2rem;
+    margin: 2% auto;
 }
 
 .word {
@@ -275,9 +334,9 @@ body {
     width: 3rem;
     height: 3rem;
     position: absolute;
-    margin-top: -14.5rem;
+    margin-top: -15.5rem;
     background-color: #000000;
-    float: right;
+    right: 11%;
 }
 
 .arrow {
