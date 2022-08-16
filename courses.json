@@ -1,0 +1,84 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "title": "Learn Python: The Complete Python Programming Course",
+      "author": "Avinash Jain, The Codex",
+      "rate": 4.4,
+      "reviewers": "(2,923)",
+      "image": "https://img-b.udemycdn.com/course/240x135/394676_ce3d_5.jpg",
+      "price": "E£679.99",
+      "oldPrice": "E£ 1,599.99"
+    },
+    {
+      "id": 2,
+      "title": "Learning Python for Data Analysis and Visualization",
+      "author": "Jose Portilla",
+      "rate": 4.4,
+      "reviewers": "(2,923)",
+      "image": "https://img-b.udemycdn.com/course/240x135/396876_cc92_7.jpg",
+      "price": "E£1,599.99",
+      "oldPrice": "E£ 1,599.99"
+    },
+    {
+      "id": 3,
+      "title": "Python for Beginners - Learn Programming from scratch",
+      "author": "Jose Portilla",
+      "rate": 4.4,
+      "reviewers": "(2,923)",
+      "image": "https://img-b.udemycdn.com/course/480x270/405878_e5a0_3.jpg",
+      "price": "E£679.99",
+      "oldPrice": "E£ 1,599.99"
+    },
+    {
+      "id": 4,
+      "title": "Learn Python: Python for Beginners",
+      "author": "Avinash Jain, The Codex",
+      "rate": 4.4,
+      "reviewers": "(2,923)",
+      "image": "https://img-b.udemycdn.com/course/240x135/426570_1b91_3.jpg",
+      "price": "E£319,99",
+      "oldPrice": "E£ 1,599.99"
+    },
+    {
+      "id": 5,
+      "title": "Python Beyond the Basics - Object-Oriented Programming",
+      "author": "Avinash Jain, The Codex",
+      "rate": 4.4,
+      "reviewers": "(2,923)",
+      "image": "https://img-b.udemycdn.com/course/240x135/449532_2aa9_7.jpg",
+      "price": "E£519,9",
+      "oldPrice": "E£ 1,599.99"
+    },
+    {
+      "id": 6,
+      "title": "Python From Scratch & Selenium WebDriver QA Automation 2022",
+      "author": "Admas Kinfu",
+      "rate": 4.6,
+      "reviewers": "(1,825)",
+      "image": "https://img-c.udemycdn.com/course/240x135/482754_7146_6.jpg",
+      "price": "E£269,99",
+      "oldPrice": "E£ 1,599.99"
+    },
+    {
+      "id": 7,
+      "title": "Teach Your Kids to Code: Learn to Program Python at Any Age!",
+      "author": "Bryson Payne",
+      "rate": 4.5,
+      "reviewers": "(8,816)",
+      "image": "https://img-b.udemycdn.com/course/240x135/394676_ce3d_5.jpg",
+      "price": "E£679.99",
+      "oldPrice": "E£ 1,599.99"
+    },
+    {
+      "id": 8,
+      "title": "Learn Python: The Complete Python Programming Course",
+      "author": "Avinash Jain, The Codex",
+      "rate": 4.4,
+      "reviewers": "(2,923)",
+      "image": "https://img-c.udemycdn.com/course/240x135/519554_da68_6.jpg",
+      "price": "E£679.99",
+      "oldPrice": "E£ 1,599.99"
+    }
+  ]
+}
