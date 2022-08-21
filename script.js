@@ -1,6 +1,7 @@
 let courses;
-let  coursesContainer = document.getElementsByTagName("courseContainer");
+let  coursesContainer = document.getElementById("courseContainer");
 function renderhtml(course) {
+  console.log(course);
   let coursedata = document.createElement("div"), img = document.createElement("img"), courseName = document.createElement("a");
   let authorName = document.createElement("h7"), rating = document.createElement("p"), star = document.createElement("i"), star1 = document.createElement("i"), star2 = document.createElement("i");
   let star3 = document.createElement("i"), star4 = document.createElement("i"), star5 = document.createElement("i");
@@ -39,6 +40,7 @@ function renderhtml(course) {
   coursesContainer.appendChild(coursedata);
 }
 function getCourses() {
+  console.log("kinh");
   var x = document.getElementById("searchfield");
   x.addEventListener("keypress", function (event) {
     if (event.key === "Enter") {
@@ -73,18 +75,3 @@ fetch('http://localhost:3000/courses')
       renderhtml(course);
     }
   });
-
-// {/* <div class="course1">
-
-// <img src="img/python.jpg" alt="python" class="pythonimg">
-// <a href=# class="pythoncourse">Learn python: the complete python programming course </a>
-// <h7>Avinash Jain, The Codex</h7>
-// <p class="ratingsection">4.4</p>
-// <i class="fa fa-star checked"></i>
-// <i class="fa fa-star checked"></i>
-// <i class="fa fa-star checked"></i>
-// <i class="fa fa-star checked"></i>
-// <i class="fa fa-star-half-full notchecked"></i>
-// <p class="ratingsection"><span class="visiting">(2,845)</span></p>
-// <p class="money">E&#128 199.99 <s>E&#128 679.99</s></p>
-// </div> */}
