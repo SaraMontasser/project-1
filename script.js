@@ -1,5 +1,5 @@
 let courses;
-let  coursesContainer = document.getElementById("courseContainer");
+let  coursesContainer = document.getElementsByTagName("courseContainer");
 function renderhtml(course) {
   let coursedata = document.createElement("div"), img = document.createElement("img"), courseName = document.createElement("a");
   let authorName = document.createElement("h7"), rating = document.createElement("p"), star = document.createElement("i"), star1 = document.createElement("i"), star2 = document.createElement("i");
