@@ -38,7 +38,33 @@ function renderhtml(course) {
   coursedata.appendChild(price);
   coursesboxes.appendChild(coursedata);
   coursesContainer.appendChild(coursesboxes);
-  console.log("s");
+}
+function getCourses() {
+  var x = document.getElementById("searchfield");
+  x.addEventListener("keypress", function (event) {
+    if (event.key === "Enter") {
+      event.preventDefault();
+      let searchWord = x.value
+      searchWord = searchWord.toLowerCase();
+      let coursesContent = document.getElementsByClassName("course1");
+      for (i = 0; i < coursesContent.length; i++) {
+        coursesContent[i].style.display = "none";
+      }
+      if(searchWord==""){
+        for (var course of courses) {
+            renderhtml(course);
+        }
+      }
+      else{
+      for (var course of courses) {
+        var courseTitle = course.title.toLowerCase();
+        if (courseTitle.indexOf(searchWord) != -1){
+          renderhtml(course);
+        }
+      }
+    }
+  }
+  });
 }
 fetch('http://localhost:3000/courses')
   .then((response) => response.json())
