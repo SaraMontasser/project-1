@@ -118,10 +118,53 @@ body {
         display: none;
     }
 }
+@media only screen and (max-width:1505px) {
+
+    .coursesblocks {
+        height: 49rem !important;
+    }
+}
+@media only screen and (max-width:1504px) {
+
+    .clockimg {
+        height: 14rem !important;
+    
+    }
+}
 @media only screen and (max-width:1224px) {
 
     .navBar{
-        height: 18vh !important;
+        height: 23vh !important;
+    }
+}
+@media only screen and (max-width:1027px) {
+
+    .coursesblocks {
+        height: 55rem !important;
+    }
+}
+@media only screen and (max-width:927px) {
+
+    .coursesblocks {
+        height: 71rem !important;
+    }
+}
+@media only screen and (max-width:694px) {
+
+    .coursesblocks {
+        height: 78rem !important;
+    }
+}
+@media only screen and (max-width:629px) {
+
+    .coursesblocks {
+        height: 115rem !important;
+    }
+}
+@media only screen and (max-width:450px) {
+
+    .coursesblocks {
+        height: 120rem !important;
     }
 }
 @media only screen and (max-width:800px) {
