@@ -108,9 +108,7 @@ body {
     .arrow {
         display: none;
     }
-    .coursesblocks {
-        height: 115vh;
-    }
+
 }
 @media only screen and (max-width:1525px) {
 
@@ -118,123 +116,19 @@ body {
         display: none;
     }
 }
-@media only screen and (max-width:1224px) {
+
+@media only screen and (max-width:948px) {
 
     .navBar{
-        height: 18vh !important;
+        height: 23vh !important;
     }
 }
+
 @media only screen and (max-width:800px) {
 
-    .coursesblocks {
-        height: 280vh;
-    }
     .navBar {
     
         height: 4vh !important;
-    }
-}
-@media only screen and (max-width:1210px) {
-
-    .coursesblocks {
-        height: 74rem ;
-    }
-    
-}
-@media only screen and (max-width:1027px) {
-
-    .coursesblocks {
-        height: 77rem ;
-    }
-    
-}
-@media only screen and (max-width:928px) {
-
-    .coursesblocks {
-        height: 80rem !important;
-    }
-    
-}
-@media only screen and (max-width:917px) {
-
-    .coursesblocks {
-        height: 100rem !important;
-    }
-    
-}
-@media only screen and (max-width:625px) {
-
-    .coursesblocks {
-        height: 185rem !important;
-    }
-    
-}
-@media only screen and (max-width:565px) {
-
-    .coursesblocks {
-        height: 190rem !important;
-    }
-    
-}
-@media only screen and (max-width:450px) {
-
-    .coursesblocks {
-        height: 195rem !important;
-    }
-    
-}
-@media only screen and (max-width:305px) {
-
-    .coursesblocks {
-        height: 200rem !important;
-    }
-    
-}
-@media only screen and (max-width:269px) {
-
-    .coursesblocks {
-        height: 205rem !important;
-    }
-    
-}
-@media only screen and (max-width:302px) {
-
-    .coursesblocks {
-        width: 18rem !important;
-    }
-    
-}
-@media only screen and (max-width:800px) {
-
-    
-    .clockimg {
-        width: 50vw !important;
-    }
-    
-}
-@media only screen and (max-width:500px) {
-
-    
-    .clockimg {
-        width: 70vw !important;
-    }
-}
-@media only screen and (max-width:928px) {
-
-    .coursesblocks {
-        height: 160vh;
-    }
-}
-@media only screen and (max-width:694px) {
-
-    .coursesblocks {
-        height: 170vh;
-    }
-}
-@media only screen and (max-width:628px) {
-
-    .coursesblocks {
-        height: 260vh;
     }
 }
 
@@ -298,9 +192,9 @@ body {
     padding: 2% 2% 4% 4%;
 }
 .clockimg{
-    width: 30vw;
+    width: 21rem;
     float: right;
-    margin-right: 10%;
+    margin-right: 4%;
 }
 
 .notes {
@@ -320,12 +214,6 @@ body {
     margin-left: 5%;
 }
 
-.centerDiv {
-    width: 90%;
-    display: block;
-    margin: 0 auto;
-    box-shadow: 0px 0px 8px 0px rgb(0, 0, 0, 0.2);
-}
 
 .courses {
     background-color: white;
@@ -340,8 +228,6 @@ body {
 }
 
 .coursesblocks {
-    width: 82vw;
-    min-height: 54rem;
     border-color: rgba(0, 0, 0, 0.303);
     border-style: solid;
     border-width: 0.1rem;
@@ -364,6 +250,8 @@ body {
     color: black;
     border-style: solid;
     border-width: 0.1rem;
+    display: block;
+    width: 8rem;
 }
 
 .coursesboxes {
