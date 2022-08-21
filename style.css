@@ -134,6 +134,76 @@ body {
         height: 4vh !important;
     }
 }
+@media only screen and (max-width:1210px) {
+
+    .coursesblocks {
+        height: 74rem ;
+    }
+    
+}
+@media only screen and (max-width:1027px) {
+
+    .coursesblocks {
+        height: 77rem ;
+    }
+    
+}
+@media only screen and (max-width:928px) {
+
+    .coursesblocks {
+        height: 80rem !important;
+    }
+    
+}
+@media only screen and (max-width:917px) {
+
+    .coursesblocks {
+        height: 100rem !important;
+    }
+    
+}
+@media only screen and (max-width:625px) {
+
+    .coursesblocks {
+        height: 185rem !important;
+    }
+    
+}
+@media only screen and (max-width:565px) {
+
+    .coursesblocks {
+        height: 190rem !important;
+    }
+    
+}
+@media only screen and (max-width:450px) {
+
+    .coursesblocks {
+        height: 195rem !important;
+    }
+    
+}
+@media only screen and (max-width:305px) {
+
+    .coursesblocks {
+        height: 200rem !important;
+    }
+    
+}
+@media only screen and (max-width:269px) {
+
+    .coursesblocks {
+        height: 205rem !important;
+    }
+    
+}
+@media only screen and (max-width:302px) {
+
+    .coursesblocks {
+        width: 18rem !important;
+    }
+    
+}
 @media only screen and (max-width:800px) {
 
     
@@ -271,7 +341,7 @@ body {
 
 .coursesblocks {
     width: 82vw;
-    min-height: 31rem;
+    min-height: 54rem;
     border-color: rgba(0, 0, 0, 0.303);
     border-style: solid;
     border-width: 0.1rem;
