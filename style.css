@@ -417,3 +417,8 @@ a {
 .imagelink:hover {
     color: black;
 }
+.topcategories{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 6rem;
+}
