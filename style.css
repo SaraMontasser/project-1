@@ -188,7 +188,7 @@ body {
     background-color: #f8f9fb;
     width: 86vw;
     margin: 3% auto;
-    height: 39vh;
+    height: 47vh;
     padding: 2% 2% 4% 4%;
 }
 .clockimg{
@@ -196,7 +196,13 @@ body {
     float: right;
     margin-right: 4%;
 }
-
+.notesHead{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.notesword{
+    font-size: 1.2rem;
+}
 .notes {
     margin-top: 3%;
     background-color: white;
@@ -233,6 +239,7 @@ body {
     border-width: 0.1rem;
     padding: 1rem 0rem 1rem 2rem;
     margin: 2% auto;
+    width: 87vw;
 }
 
 .word {
@@ -271,12 +278,11 @@ body {
 }
 
 .pythoncourse {
-    font-size: 15px;
-    font-weight: bold;
+    font-size: 13px;
+    font-weight: 400;
     text-decoration: none;
     color: black;
     display: block;
-    width: 14rem;
 }
 
 .checked {
@@ -300,14 +306,6 @@ body {
 .arrow {
     color: white;
 }
-
-h7 {
-    display: block;
-    font-size: 0.8rem;
-    padding: 0.3rem 0rem 0rem 0rem;
-    font-weight: lighter;
-}
-
 .ratingsection {
     display: inline-block;
     color: gold;
@@ -338,3 +336,31 @@ s,
 
     display: none;
 }
+a{
+    font-weight: 600 !important;
+}
+@media screen and (min-width:779px){
+  .card{
+    margin: 2.5em .5em;
+    width: 15.5vw;
+    display: inline-block !important;
+    
+  }
+  
+}
+.image-wrapper{
+    /* height: 15vw !important; */
+    align-items: center !important;
+    justify-content: center !important;
+    display: flex !important;
+  }
+  .image-wrapper img{
+    max-width: 100%;
+    max-height: 100%;
+  }
+  @media screen and (max-width:779px){
+    .card:not(:first-child){
+        display: none;
+    }
+    
+  }
