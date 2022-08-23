@@ -48,29 +48,17 @@ function renderhtml(course,cnt) {
   carouselItem.appendChild(card);
 }
 function getCourses() {
-  console.log("kinh");
   var x = document.getElementById("searchfield");
   x.addEventListener("keypress", function (event) {
     if (event.key === "Enter") {
       event.preventDefault();
       let searchWord = x.value
       searchWord = searchWord.toLowerCase();
-      let coursesContent = document.getElementsByClassName("course1");
-      for (i = 0; i < coursesContent.length; i++) {
-        coursesContent[i].style.display = "none";
-      }
       if (searchWord == "") {
-        for (var course of courses) {
-          renderhtml(course);
-        }
+        renderCourse('python');
       }
       else {
-        for (var course of courses) {
-          var courseTitle = course.title.toLowerCase();
-          if (courseTitle.indexOf(searchWord) != -1) {
-            renderhtml(course);
-          }
-        }
+        renderCourse(searchWord.toString());
       }
     }
   });
@@ -79,13 +67,20 @@ let python = document.getElementById("python"),excel = document.getElementById("
 python.addEventListener("click",function(){
   python.style.color="grey";
   excel.style.color="black";
-  // python.style.color="grey";
+  webDevelopment.style.color="black";
   renderCourse('python');
 });
 excel.addEventListener("click",function(){
   python.style.color="black";
   excel.style.color="grey";
+  webDevelopment.style.color="black";
   renderCourse('excel');
+});
+webDevelopment.addEventListener("click",function(){
+  python.style.color="black";
+  excel.style.color="black";
+  webDevelopment.style.color="grey";
+  renderCourse('web d');
 });
 function renderCourse(name){
 fetch(' http://localhost:3000/courses')
@@ -93,6 +88,15 @@ fetch(' http://localhost:3000/courses')
   .then((data) => {
     courses = data;
     let cnt = 0;
+    carouselItem = document.getElementById(cnt.toString());
+    if(carouselItem!= null){
+      while(carouselInner.childElementCount>1){
+        carouselInner.removeChild(carouselInner.lastChild);
+    }
+    }
+    while(carouselItem.firstChild){
+      carouselItem.removeChild(carouselItem.firstChild);
+  }
     for (var course of data) {
       var courseTitle = course.title.toLowerCase();
       if(courseTitle.indexOf(name) == -1) continue;
@@ -107,13 +111,23 @@ fetch(' http://localhost:3000/courses')
       }
       renderhtml(course,cnt);
     }
-    // carouselItem = document.getElementById(cnt.toString());
-    //   if(carouselItem!= null&&carouselItem.childElementCount<5){
-    //     if(cnt!=0){
-    //     carouselInner.appendChild(carouselItem);
-    //     coursesContainer.appendChild(carouselItem);
-    //     }
-    //   }
-
   });
 }
+fetch(' http://localhost:3000/courses')
+  .then((response) => response.json())
+  .then((data) => {
+    courses = data;
+    let cnt = 0;
+    for (var course of data) {
+      carouselItem = document.getElementById(cnt.toString());
+      if(carouselItem!= null&& carouselItem.childElementCount==5){
+        cnt++;
+        carouselItem=document.createElement("div");
+        carouselItem.setAttribute("id",cnt.toString());
+        carouselItem.classList.add("carousel-item");
+        carouselInner.appendChild(carouselItem);
+        coursesContainer.appendChild(carouselInner);
+      }
+      renderhtml(course,cnt);
+    }
+  });
