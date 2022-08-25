@@ -54,36 +54,90 @@ function getCourses() {
       event.preventDefault();
       let searchWord = x.value
       searchWord = searchWord.toLowerCase();
+      console.log(searchWord);
       if (searchWord == "") {
         renderCourse('python');
       }
       else {
-        renderCourse(searchWord.toString());
+        renderCourse(searchWord);
       }
     }
   });
 }
 let python = document.getElementById("python"),excel = document.getElementById("excel"),webDevelopment = document.getElementById("webDevelopment");
+let javaScript = document.getElementById("js"),dataScience = document.getElementById("dataScience"),awsCertification = document.getElementById("awsCertification"),drawing=document.getElementById("drawing");
 python.addEventListener("click",function(){
   python.style.color="grey";
   excel.style.color="black";
   webDevelopment.style.color="black";
+  javaScript.style.color="black";
+  dataScience.style.color="black";
+  awsCertification.style.color="black";
+  drawing.style.color="black";
   renderCourse('python');
 });
 excel.addEventListener("click",function(){
   python.style.color="black";
   excel.style.color="grey";
   webDevelopment.style.color="black";
+  javaScript.style.color="black";
+  dataScience.style.color="black";
+  awsCertification.style.color="black";
+  drawing.style.color="black";
   renderCourse('excel');
 });
 webDevelopment.addEventListener("click",function(){
   python.style.color="black";
   excel.style.color="black";
   webDevelopment.style.color="grey";
+  javaScript.style.color="black";
+  dataScience.style.color="black";
+  awsCertification.style.color="black";
+  drawing.style.color="black";
   renderCourse('web d');
 });
+javaScript.addEventListener("click",function(){
+  python.style.color="black";
+  excel.style.color="black";
+  webDevelopment.style.color="black";
+  javaScript.style.color="grey";
+  dataScience.style.color="black";
+  awsCertification.style.color="black";
+  drawing.style.color="black";
+  renderCourse('java');
+});
+dataScience.addEventListener("click",function(){
+  python.style.color="black";
+  excel.style.color="black";
+  webDevelopment.style.color="black";
+  javaScript.style.color="black";
+  dataScience.style.color="grey";
+  awsCertification.style.color="black";
+  drawing.style.color="black";
+  renderCourse('data science');
+});
+awsCertification.addEventListener("click",function(){
+  python.style.color="black";
+  excel.style.color="black";
+  webDevelopment.style.color="black";
+  javaScript.style.color="black";
+  dataScience.style.color="black";
+  awsCertification.style.color="grey";
+  drawing.style.color="black";
+  renderCourse('aws');
+});
+drawing.addEventListener("click",function(){
+  python.style.color="black";
+  excel.style.color="black";
+  webDevelopment.style.color="black";
+  javaScript.style.color="black";
+  dataScience.style.color="black";
+  awsCertification.style.color="black";
+  drawing.style.color="grey";
+  renderCourse('draw');
+});
 function renderCourse(name){
-fetch(' http://localhost:3000/courses')
+fetch('http://localhost:3000/courses')
   .then((response) => response.json())
   .then((data) => {
     courses = data;
