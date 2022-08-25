@@ -1,0 +1,23 @@
+{
+  "name": "project_1_phase_1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "json-server --watch ./database/courses.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SaraMontasser/project1-phase1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SaraMontasser/project1-phase1/issues"
+  },
+  "homepage": "https://github.com/SaraMontasser/project1-phase1#readme",
+  "dependencies": {
+    "json-server": "^0.17.0"
+  }
+}
