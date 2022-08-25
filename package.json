@@ -5,7 +5,7 @@
   "main": "script.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "json-server --watch ./database/courses.json"
+    "start": "json-server --watch ./courses/courses.json"
   },
   "repository": {
     "type": "git",
