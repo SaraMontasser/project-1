@@ -391,3 +391,15 @@ a {
     font-weight: bold;
     margin-left: 6rem;
 }
+.carousel-control-prev,.carousel-control-next{
+    width: 3vw !important;
+    height:3vw ;
+    background-color: #000000 !important;
+    opacity: 1 !important;
+    border-radius: 50%;
+    color: white !important;
+    font-size: 1rem !important;
+}
+.carousel-control-prev-icon,.carousel-control-next-icon{
+    filter: none !important;
+}

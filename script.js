@@ -1,3 +1,5 @@
+// const { initial } = require("lodash");
+
 let courses;
 let coursesContainer = document.getElementById("demo");
 let carouselInner = document.getElementById("carouselInner"),carouselItem;
@@ -136,22 +138,20 @@ drawing.addEventListener("click",function(){
   drawing.style.color="grey";
   renderCourse('draw');
 });
+
 function renderCourse(name){
-fetch('http://localhost:3000/courses')
-  .then((response) => response.json())
-  .then((data) => {
-    courses = data;
-    let cnt = 0;
+console.log(courses);
+  let cnt = 0;
     carouselItem = document.getElementById(cnt.toString());
     if(carouselItem!= null){
       while(carouselInner.childElementCount>1){
         carouselInner.removeChild(carouselInner.lastChild);
-    }
+      }
     }
     while(carouselItem.firstChild){
       carouselItem.removeChild(carouselItem.firstChild);
-  }
-    for (var course of data) {
+    }
+    for (var course of courses) {
       var courseTitle = course.title.toLowerCase();
       if(courseTitle.indexOf(name) == -1) continue;
       carouselItem = document.getElementById(cnt.toString());
@@ -165,23 +165,27 @@ fetch('http://localhost:3000/courses')
       }
       renderhtml(course,cnt);
     }
-  });
-}
-fetch(' http://localhost:3000/courses')
-  .then((response) => response.json())
-  .then((data) => {
-    courses = data;
-    let cnt = 0;
-    for (var course of data) {
-      carouselItem = document.getElementById(cnt.toString());
-      if(carouselItem!= null&& carouselItem.childElementCount==5){
-        cnt++;
-        carouselItem=document.createElement("div");
-        carouselItem.setAttribute("id",cnt.toString());
-        carouselItem.classList.add("carousel-item");
-        carouselInner.appendChild(carouselItem);
-        coursesContainer.appendChild(carouselInner);
-      }
-      renderhtml(course,cnt);
-    }
-  });
+  }
+  fetch('http://localhost:3000/courses').then(res => {
+    courses = JSON.decode(res); 
+});
+
+  renderCourse('python');
+// fetch(' http://localhost:3000/courses')
+//   .then((response) => response.json())
+//   .then((data) => {
+//     courses = data;
+//     let cnt = 0;
+//     for (var course of data) {
+//       carouselItem = document.getElementById(cnt.toString());
+//       if(carouselItem!= null&& carouselItem.childElementCount==5){
+//         cnt++;
+//         carouselItem=document.createElement("div");
+//         carouselItem.setAttribute("id",cnt.toString());
+//         carouselItem.classList.add("carousel-item");
+//         carouselInner.appendChild(carouselItem);
+//         coursesContainer.appendChild(carouselInner);
+//       }
+//       renderhtml(course,cnt);
+//     }
+//   });
