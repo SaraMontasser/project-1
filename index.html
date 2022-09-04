@@ -2,345 +2,581 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <title>Udemy</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <title>Udemy</title>
 </head>
 
 <body>
-    <div class="sidemenu">
-        <div class="line"></div>
-        <div class="line"></div>
-        <div class="line"></div>
+  <div class="sidemenu">
+    <div class="line"></div>
+    <div class="line"></div>
+    <div class="line"></div>
+  </div>
+  <div class="navBar">
+
+    <div class="leftside">
+
+      <img src="img/logo-udemy.svg" alt="udemy logo" class="logo">
+      <a href=# class="categories">Categories</a>
     </div>
-    <div class="navBar">
+    <div class="middle">
 
-        <div class="leftside">
+      <form class="searchbar">
 
-            <img src="img/logo-udemy.svg" alt="udemy logo" class="logo">
-            <a href=# class="categories">Categories</a>
-        </div>
-        <div class="middle">
+        <i class="fa fa-search searchicon"></i>
 
-            <form class="searchbar">
-
-                <i class="fa fa-search searchicon"></i>
-
-                <input type="search" class="testbox" id="searchfield" placeholder="Search for anything"
-                    onkeyup="getCourses()">
-            </form>
-        </div>
-        <div class="rightside">
-
-            <a href=# class="udemyBussiness">Udemy Bussiness</a>
-            <a href=# class="teachOnUdemy">Teach on Udemy</a>
-            <button class="cart">
-
-                <i class="fa fa-shopping-cart carticon"></i>
-            </button>
-
-            <button class="login">
-                Log in
-            </button>
-            <button class="signup">
-                Sign up
-            </button>
-
-
-            <button class="langbutton">
-                <i class="fa fa-language"></i>
-
-            </button>
-
-
-        </div>
+        <input type="search" class="testbox" id="searchfield" placeholder="Search for anything" onkeyup="getCourses()">
+      </form>
     </div>
-    <div class="imgbanner">
-        <img src="https://i.ibb.co/2qHbQqM/download.png" alt="clock image" class="clockimg">
-        <div class="notes">
-            <p class="notesHead">New to Udemy? Lucky you.</p>
-            <p class="notesword">Courses start at E£169.99.Get your new-student offer before it expires.</p>
-        </div>
-    </div>
+    <div class="rightside">
 
-    <div class="notes2">
-        <p class="notesHead">New to Udemy? Lucky you.</p>
-        <p class="notesword">Courses start at E£169.99.Get your new-student offer before it expires.</p>
-    </div>
-    <div class="coursesnote">
+      <a href=# class="udemyBussiness">Udemy Bussiness</a>
+      <a href=# class="teachOnUdemy">Teach on Udemy</a>
+      <button class="cart">
 
-        <p class="notesHead">A Broad selection of courses </p>
-        <p>Choose from 185,000 online video courses with new additions published every month</p>
+        <i class="fa fa-shopping-cart carticon"></i>
+      </button>
+
+      <button class="login">
+        Log in
+      </button>
+      <button class="signup">
+        Sign up
+      </button>
+
+
+      <button class="langbutton">
+        <i class="fa fa-language"></i>
+
+      </button>
+
+
     </div>
-    <div class="coursessection">
-        <a href=# class="courses" id="python">python</a>
-        <a href=# class="courses" id="excel">Excel</a>
-        <a href=# class="courses" id="webDevelopment">Web Development</a>
-        <a href=# class="courses" id="js">JavaScript</a>
-        <a href=# class="courses" id="dataScience">DataScience</a>
-        <a href=# class="courses" id="awsCertification">AWS Certification</a>
-        <a href=# class="courses" id="drawing">Drawing</a>
+  </div>
+  <div class="imgbanner">
+    <img src="https://i.ibb.co/2qHbQqM/download.png" alt="clock image" class="clockimg">
+    <div class="notes">
+      <p class="notesHead">New to Udemy? Lucky you.</p>
+      <p class="notesword">Courses start at E£169.99.Get your new-student offer before it expires.</p>
     </div>
-    <div class="coursesblocks" id="courseContainer">
-        <div class="word">
+  </div>
+
+  <div class="notes2">
+    <p class="notesHead">New to Udemy? Lucky you.</p>
+    <p class="notesword">Courses start at E£169.99.Get your new-student offer before it expires.</p>
+  </div>
+  <div class="coursesnote">
+
+    <p class="notesHead">A Broad selection of courses </p>
+    <p>Choose from 185,000 online video courses with new additions published every month</p>
+  </div>
+
+  <div class="container mt-3">
+    <!-- Nav tabs -->
+    <ul class="nav nav-tabs" role="tablist">
+      <li class="nav-item">
+        <a class="nav-link active" data-bs-toggle="tab" href="#python">python</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-bs-toggle="tab" href="#Excel">Excel</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-bs-toggle="tab" href="#WebDevelopment">Web Development</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-bs-toggle="tab" href="#JavaScript">JavaScript</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-bs-toggle="tab" href="#DataScience">DataScience</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-bs-toggle="tab" href="#AWSCertification">AWS Certification</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-bs-toggle="tab" href="#Drawing">Drawing</a>
+      </li>
+    </ul>
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+      <div id="python" class="container tab-pane active"><br>
+        <div class="coursesblocks" id="courseContainer">
+          <div class="word">
 
             <p class="notesHead">Expand Your Career opportunities with python</p>
             <p>
-                Take one of Udemy's range of python courses and learn how to code using this incredibly useful language.
-                Its simple syntax and readability makes Python perfect for Flask, Django, data science, and Machine
-                learning. You'll learn how to build everthing for games to site to apps. Choose from a range of courses
-                that will appeal to...
+              Take one of Udemy's range of python courses and learn how to code using this incredibly useful language.
+              Its simple syntax and readability makes Python perfect for Flask, Django, data science, and Machine
+              learning. You'll learn how to build everthing for games to site to apps. Choose from a range of courses
+              that will appeal to...
             </p>
-        </div>
-        <a href=# class="explore">
+          </div>
+          <a href=# class="explore">
             Explore Python
-        </a>
-        <div id="demo" class="carousel carousel-dark" data-bs-ride="carousel">
-            <div class="carousel-inner" id="carouselInner">
-                <div class="carousel-item active" id="0">
-                    
-                </div>
-                
+          </a>
+          <div id="demo-python" class="carousel carousel-dark" data-bs-ride="carousel">
+            <div class="carousel-inner python" id="carouselInner">
+              <div class="carousel-item active" id="0-python">
+
+              </div>
+
             </div>
             <!-- Left and right controls/icons -->
-            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon"></span>
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo-python" data-bs-slide="prev" id="python-button-prev">
+              <span class="carousel-control-prev-icon"></span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
-                <span class="carousel-control-next-icon"></span>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo-python" data-bs-slide="next" id="python-button-next">
+              <span class="carousel-control-next-icon"></span>
             </button>
+          </div>
         </div>
+      </div>
+      <div id="Excel" class="container tab-pane fade"><br>
+        <div class="coursesblocks" id="courseContainer">
+          <div class="word">
+
+            <p class="notesHead">Analyze and visualize data with Excel</p>
+            <p>
+              Take a Microsoft Excel course from Udemy, and learn how to use this industry-standard software. Real-world
+              experts will show you the basics like how to organize data into sheets, rows and columns, and advanced
+              techniques like creating complex dynamic formulas. Both small businesses and large companies use Excel
+              to...
+            </p>
+          </div>
+          <a href=# class="explore">
+            Explore Excel
+          </a>
+          <div id="demo-excel" class="carousel carousel-dark" data-bs-ride="carousel">
+            <div class="carousel-inner excel" id="carouselInner">
+              <div class="carousel-item active" id="0-excel">
+
+              </div>
+
+            </div>
+            <!-- Left and right controls/icons -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo-excel" data-bs-slide="prev" id="excel-button-prev">
+              <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo-excel" data-bs-slide="next" id="excel-button-next">
+              <span class="carousel-control-next-icon"></span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div id="WebDevelopment" class="container tab-pane fade"><br>
+        <div class="coursesblocks" id="courseContainer">
+          <div class="word">
+  
+              <p class="notesHead">Build websites and applications with Web Development</p>
+              <p>
+                The world of web development is as wide as the internet itself. Much of our social and vocational lives play out on the internet, which prompts new industries aimed at creating, managing, and debugging the websites and applications that we increasingly rely on.
+              </p>
+          </div>
+          <a href=# class="explore">
+              Explore Web Development
+          </a>
+          <div id="demo-web" class="carousel carousel-dark" data-bs-ride="carousel">
+              <div class="carousel-inner web" id="carouselInner">
+                  <div class="carousel-item active" id="0-web">
+                      
+                  </div>
+                  
+              </div>
+              <!-- Left and right controls/icons -->
+              <button class="carousel-control-prev" type="button" data-bs-target="#demo-web" data-bs-slide="prev" id="web-button-prev">
+                  <span class="carousel-control-prev-icon"></span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#demo-web" data-bs-slide="next" id="web-button-next">
+                  <span class="carousel-control-next-icon"></span>
+              </button>
+          </div>
+      </div>
+      </div>
+      <div id="JavaScript" class="container tab-pane fade"><br>
+        <div class="coursesblocks" id="courseContainer">
+          <div class="word">
+  
+              <p class="notesHead">Grow your software development skills with JavaScript</p>
+              <p>
+                JavaScript is a text-based computer programming language used to make dynamic web pages. A must-learn for aspiring web developers or programmers, JavaScript can be used for features like image carousels, displaying countdowns and timers, and playing media on a webpage. With JavaScript online classes, you can learn to build...
+              </p>
+          </div>
+          <a href=# class="explore">
+              Explore JavaScript
+          </a>
+          <div id="demo-java" class="carousel carousel-dark" data-bs-ride="carousel">
+              <div class="carousel-inner java" id="carouselInner">
+                  <div class="carousel-item active" id="0-java">
+                      
+                  </div>
+                  
+              </div>
+              <!-- Left and right controls/icons -->
+              <button class="carousel-control-prev" type="button" data-bs-target="#demo-java" data-bs-slide="prev" id="java-button-prev">
+                  <span class="carousel-control-prev-icon"></span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#demo-java" data-bs-slide="next" id="java-button-next">
+                  <span class="carousel-control-next-icon"></span>
+              </button>
+          </div>
+      </div>
+      </div>
+      <div id="DataScience" class="container tab-pane fade"><br>
+        <div class="coursesblocks" id="courseContainer">
+          <div class="word">
+  
+              <p class="notesHead">Lead data-driven decisions with Data Science</p>
+              <p>
+                Data science application is an in-demand skill in many industries worldwide — including finance, transportation, education, manufacturing, human resources, and banking. Explore data science courses with Python, statistics, machine learning, and more to grow your knowledge. Get data science training if you are into research, statistics...
+              </p>
+          </div>
+          <a href=# class="explore">
+              Explore Data Science
+          </a>
+          <div id="demo-data" class="carousel carousel-dark" data-bs-ride="carousel">
+              <div class="carousel-inner data" id="carouselInner">
+                  <div class="carousel-item active" id="0-data">
+                      
+                  </div>
+                  
+              </div>
+              <!-- Left and right controls/icons -->
+              <button class="carousel-control-prev" type="button" data-bs-target="#demo-data" data-bs-slide="prev" id="data-button-prev">
+                  <span class="carousel-control-prev-icon"></span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#demo-data" data-bs-slide="next" id="data-button-next">
+                  <span class="carousel-control-next-icon"></span>
+              </button>
+          </div>
+      </div>
+      </div>
+      <div id="AWSCertification" class="container tab-pane fade"><br>
+        <div class="coursesblocks" id="courseContainer">
+          <div class="word">
+  
+              <p class="notesHead">Become an expert in cloud computing with AWS Certification</p>
+              <p>
+                Prep for your AWS certification with an AWS course on Udemy. Learn the fundamentals of AWS such as working with a serverless platform, the various frameworks, security and more. With these courses, you’ll build the valuable skills you need to implement cloud initiatives — and open up new career opportunities. If you want to...
+              </p>
+          </div>
+          <a href=# class="explore">
+              Explore AWS Certification
+          </a>
+          <div id="demo-aws" class="carousel carousel-dark" data-bs-ride="carousel">
+              <div class="carousel-inner aws" id="carouselInner">
+                  <div class="carousel-item active" id="0-aws">
+                      
+                  </div>
+                  
+              </div>
+              <!-- Left and right controls/icons -->
+              <button class="carousel-control-prev" type="button" data-bs-target="#demo-aws" data-bs-slide="prev" id="aws-button-prev">
+                  <span class="carousel-control-prev-icon"></span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#demo-aws" data-bs-slide="next" id="aws-button-next">
+                  <span class="carousel-control-next-icon"></span>
+              </button>
+          </div>
+      </div>
+      </div>
+      <div id="Drawing" class="container tab-pane fade"><br>
+        <div class="coursesblocks" id="courseContainer">
+          <div class="word">
+  
+              <p class="notesHead">Expand your creative skillset with Drawing</p>
+              <p>
+                Want to start drawing for fun or take your craft to the next level? Explore our online drawing classes and learn pencil drawing, figure drawing, cartoon drawing, character drawing for cartoons and anime, illustration, sketching, shading and more. Take an overview course on the fundamentals of drawing or zero in on an area...
+              </p>
+          </div>
+          <a href=# class="explore">
+              Explore Drawing
+          </a>
+          <div id="demo-draw" class="carousel carousel-dark" data-bs-ride="carousel">
+              <div class="carousel-inner draw" id="carouselInner">
+                  <div class="carousel-item active" id="0-draw">
+                      
+                  </div>
+                  
+              </div>
+              <!-- Left and right controls/icons -->
+              <button class="carousel-control-prev" type="button" data-bs-target="#demo-draw" data-bs-slide="prev" id="draw-button-prev">
+                  <span class="carousel-control-prev-icon"></span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#demo-draw" data-bs-slide="next" id="draw-button-next">
+                  <span class="carousel-control-next-icon"></span>
+              </button>
+          </div>
+      </div>
+      </div>
     </div>
-    <p class="topcategories">Top Categories</p>
-    <div class="container text-center" id="largescreengrid">
-        <div class="row row-cols-4">
-          <div class="col">
-            <div class="gridcard" >
-                <a href="#" class="imagelink">
-                <img src="https://s.udemycdn.com/home/top-categories/lohp-category-design-v2.jpg" alt="Design">
-                <div class="card-body">
-                  <h5 class="card-title">Design</h5>
-                </div>
-                </a>
-              </div>
-          </div>
-          <div class="col"><div class="gridcard" >
-                <a href="#" class="imagelink">
-                <img src="https://s.udemycdn.com/home/top-categories/lohp-category-development-v2.jpg" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Development</h5>
-                </div>
-                </a>
-              </div>
+  </div>
+  <p class="topcategories">Top Categories</p>
+  <div class="container text-center" id="largescreengrid">
+    <div class="row row-cols-4">
+      <div class="col">
+        <div class="gridcard">
+          <a href="#" class="imagelink">
+            <img src="https://s.udemycdn.com/home/top-categories/lohp-category-design-v2.jpg" alt="Design">
+            <div class="card-body">
+              <h5 class="card-title">Design</h5>
             </div>
-          <div class="col"><div class="gridcard" >
-                <a href="#" class="imagelink">
-                <img src="https://s.udemycdn.com/home/top-categories/lohp-category-marketing-v2.jpg" alt="Marketing">
-                <div class="card-body">
-                  <h5 class="card-title">Marketing</h5>
-                </div>
-                </a>
-              </div>
-            </div>
-          <div class="col"><div class="gridcard" >
-                <a href="#" class="imagelink">
-                <img src="https://s.udemycdn.com/home/top-categories/lohp-category-it-and-software-v2.jpg" alt="IT and Software">
-                <div class="card-body">
-                  <h5 class="card-title">IT and Software</h5>
-                </div>
-                </a>
-              </div>
-            </div>
-          <div class="col"><div class="gridcard" >
-                <a href="#" class="imagelink">
-                <img src="https://s.udemycdn.com/home/top-categories/lohp-category-personal-development-v2.jpg" alt="Personal Development">
-                <div class="card-body">
-                  <h5 class="card-title">Personal Development</h5>
-                </div>
-                </a>
-              </div></div>
-              <div class="col"><div class="gridcard" >
-                <a href="#" class="imagelink">
-                <img src="https://s.udemycdn.com/home/top-categories/lohp-category-business-v2.jpg" alt="Business">
-                <div class="card-body">
-                  <h5 class="card-title">Business</h5>
-                </div>
-                </a>
-              </div></div>
-              <div class="col"><div class="gridcard" >
-                <a href="#" class="imagelink">
-                <img src="https://s.udemycdn.com/home/top-categories/lohp-category-photography-v2.jpg" alt="Photography">
-                <div class="card-body">
-                  <h5 class="card-title">Photography</h5>
-                </div>
-                </a>
-              </div></div>
-              <div class="col"><div class="gridcard" >
-                <a href="#" class="imagelink">
-                <img src="https://s.udemycdn.com/home/top-categories/lohp-category-music-v2.jpg" alt="Music">
-                <div class="card-body">
-                  <h5 class="card-title">Music</h5>
-                </div>
-                </a>
-              </div>
-            </div>
+          </a>
         </div>
       </div>
-      <div class="container text-center" id="mediumscreengrid">
-        <div class="row row-cols-3">
-          <div class="col">
-            <div class="gridcard" >
-                <a href="#" class="imagelink">
-                <img src="https://s.udemycdn.com/home/top-categories/lohp-category-design-v2.jpg" alt="Design">
-                <div class="card-body">
-                  <h5 class="card-title">Design</h5>
-                </div>
-                </a>
-              </div>
-          </div>
-          <div class="col"><div class="gridcard" >
-                <a href="#" class="imagelink">
-                <img src="https://s.udemycdn.com/home/top-categories/lohp-category-development-v2.jpg" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Development</h5>
-                </div>
-                </a>
-              </div>
+      <div class="col">
+        <div class="gridcard">
+          <a href="#" class="imagelink">
+            <img src="https://s.udemycdn.com/home/top-categories/lohp-category-development-v2.jpg" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Development</h5>
             </div>
-          <div class="col"><div class="gridcard" >
-                <a href="#" class="imagelink">
-                <img src="https://s.udemycdn.com/home/top-categories/lohp-category-marketing-v2.jpg" alt="Marketing">
-                <div class="card-body">
-                  <h5 class="card-title">Marketing</h5>
-                </div>
-                </a>
-              </div>
-            </div>
-          <div class="col"><div class="gridcard" >
-                <a href="#" class="imagelink">
-                <img src="https://s.udemycdn.com/home/top-categories/lohp-category-it-and-software-v2.jpg" alt="IT and Software">
-                <div class="card-body">
-                  <h5 class="card-title">IT and Software</h5>
-                </div>
-                </a>
-              </div>
-            </div>
-          <div class="col"><div class="gridcard" >
-                <a href="#" class="imagelink">
-                <img src="https://s.udemycdn.com/home/top-categories/lohp-category-personal-development-v2.jpg" alt="Personal Development">
-                <div class="card-body">
-                  <h5 class="card-title">Personal Development</h5>
-                </div>
-                </a>
-              </div></div>
-              <div class="col"><div class="gridcard" >
-                <a href="#" class="imagelink">
-                <img src="https://s.udemycdn.com/home/top-categories/lohp-category-business-v2.jpg" alt="Business">
-                <div class="card-body">
-                  <h5 class="card-title">Business</h5>
-                </div>
-                </a>
-              </div></div>
-              <div class="col"><div class="gridcard" >
-                <a href="#" class="imagelink">
-                <img src="https://s.udemycdn.com/home/top-categories/lohp-category-photography-v2.jpg" alt="Photography">
-                <div class="card-body">
-                  <h5 class="card-title">Photography</h5>
-                </div>
-                </a>
-              </div></div>
-              <div class="col"><div class="gridcard" >
-                <a href="#" class="imagelink">
-                <img src="https://s.udemycdn.com/home/top-categories/lohp-category-music-v2.jpg" alt="Music">
-                <div class="card-body">
-                  <h5 class="card-title">Music</h5>
-                </div>
-                </a>
-              </div>
-            </div>
+          </a>
         </div>
       </div>
-      <div class="container text-center" id="smallscreengrid">
-        <div class="row row-cols-1">
-          <div class="col">
-            <div class="gridcard" >
-                <a href="#" class="imagelink">
-                <img src="https://s.udemycdn.com/home/top-categories/lohp-category-design-v2.jpg" alt="Design">
-                <div class="card-body">
-                  <h5 class="card-title">Design</h5>
-                </div>
-                </a>
-              </div>
-          </div>
-          <div class="col"><div class="gridcard" >
-                <a href="#" class="imagelink">
-                <img src="https://s.udemycdn.com/home/top-categories/lohp-category-development-v2.jpg" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Development</h5>
-                </div>
-                </a>
-              </div>
+      <div class="col">
+        <div class="gridcard">
+          <a href="#" class="imagelink">
+            <img src="https://s.udemycdn.com/home/top-categories/lohp-category-marketing-v2.jpg" alt="Marketing">
+            <div class="card-body">
+              <h5 class="card-title">Marketing</h5>
             </div>
-          <div class="col"><div class="gridcard" >
-                <a href="#" class="imagelink">
-                <img src="https://s.udemycdn.com/home/top-categories/lohp-category-marketing-v2.jpg" alt="Marketing">
-                <div class="card-body">
-                  <h5 class="card-title">Marketing</h5>
-                </div>
-                </a>
-              </div>
-            </div>
-          <div class="col"><div class="gridcard" >
-                <a href="#" class="imagelink">
-                <img src="https://s.udemycdn.com/home/top-categories/lohp-category-it-and-software-v2.jpg" alt="IT and Software">
-                <div class="card-body">
-                  <h5 class="card-title">IT and Software</h5>
-                </div>
-                </a>
-              </div>
-            </div>
-          <div class="col"><div class="gridcard" >
-                <a href="#" class="imagelink">
-                <img src="https://s.udemycdn.com/home/top-categories/lohp-category-personal-development-v2.jpg" alt="Personal Development">
-                <div class="card-body">
-                  <h5 class="card-title">Personal Development</h5>
-                </div>
-                </a>
-              </div></div>
-              <div class="col"><div class="gridcard" >
-                <a href="#" class="imagelink">
-                <img src="https://s.udemycdn.com/home/top-categories/lohp-category-business-v2.jpg" alt="Business">
-                <div class="card-body">
-                  <h5 class="card-title">Business</h5>
-                </div>
-                </a>
-              </div></div>
-              <div class="col"><div class="gridcard" >
-                <a href="#" class="imagelink">
-                <img src="https://s.udemycdn.com/home/top-categories/lohp-category-photography-v2.jpg" alt="Photography">
-                <div class="card-body">
-                  <h5 class="card-title">Photography</h5>
-                </div>
-                </a>
-              </div></div>
-              <div class="col"><div class="gridcard" >
-                <a href="#" class="imagelink">
-                <img src="https://s.udemycdn.com/home/top-categories/lohp-category-music-v2.jpg" alt="Music">
-                <div class="card-body">
-                  <h5 class="card-title">Music</h5>
-                </div>
-                </a>
-              </div>
-            </div>
+          </a>
         </div>
       </div>
-      
+      <div class="col">
+        <div class="gridcard">
+          <a href="#" class="imagelink">
+            <img src="https://s.udemycdn.com/home/top-categories/lohp-category-it-and-software-v2.jpg"
+              alt="IT and Software">
+            <div class="card-body">
+              <h5 class="card-title">IT and Software</h5>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col">
+        <div class="gridcard">
+          <a href="#" class="imagelink">
+            <img src="https://s.udemycdn.com/home/top-categories/lohp-category-personal-development-v2.jpg"
+              alt="Personal Development">
+            <div class="card-body">
+              <h5 class="card-title">Personal Development</h5>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col">
+        <div class="gridcard">
+          <a href="#" class="imagelink">
+            <img src="https://s.udemycdn.com/home/top-categories/lohp-category-business-v2.jpg" alt="Business">
+            <div class="card-body">
+              <h5 class="card-title">Business</h5>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col">
+        <div class="gridcard">
+          <a href="#" class="imagelink">
+            <img src="https://s.udemycdn.com/home/top-categories/lohp-category-photography-v2.jpg" alt="Photography">
+            <div class="card-body">
+              <h5 class="card-title">Photography</h5>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col">
+        <div class="gridcard">
+          <a href="#" class="imagelink">
+            <img src="https://s.udemycdn.com/home/top-categories/lohp-category-music-v2.jpg" alt="Music">
+            <div class="card-body">
+              <h5 class="card-title">Music</h5>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container text-center" id="mediumscreengrid">
+    <div class="row row-cols-3">
+      <div class="col">
+        <div class="gridcard">
+          <a href="#" class="imagelink">
+            <img src="https://s.udemycdn.com/home/top-categories/lohp-category-design-v2.jpg" alt="Design">
+            <div class="card-body">
+              <h5 class="card-title">Design</h5>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col">
+        <div class="gridcard">
+          <a href="#" class="imagelink">
+            <img src="https://s.udemycdn.com/home/top-categories/lohp-category-development-v2.jpg" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Development</h5>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col">
+        <div class="gridcard">
+          <a href="#" class="imagelink">
+            <img src="https://s.udemycdn.com/home/top-categories/lohp-category-marketing-v2.jpg" alt="Marketing">
+            <div class="card-body">
+              <h5 class="card-title">Marketing</h5>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col">
+        <div class="gridcard">
+          <a href="#" class="imagelink">
+            <img src="https://s.udemycdn.com/home/top-categories/lohp-category-it-and-software-v2.jpg"
+              alt="IT and Software">
+            <div class="card-body">
+              <h5 class="card-title">IT and Software</h5>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col">
+        <div class="gridcard">
+          <a href="#" class="imagelink">
+            <img src="https://s.udemycdn.com/home/top-categories/lohp-category-personal-development-v2.jpg"
+              alt="Personal Development">
+            <div class="card-body">
+              <h5 class="card-title">Personal Development</h5>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col">
+        <div class="gridcard">
+          <a href="#" class="imagelink">
+            <img src="https://s.udemycdn.com/home/top-categories/lohp-category-business-v2.jpg" alt="Business">
+            <div class="card-body">
+              <h5 class="card-title">Business</h5>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col">
+        <div class="gridcard">
+          <a href="#" class="imagelink">
+            <img src="https://s.udemycdn.com/home/top-categories/lohp-category-photography-v2.jpg" alt="Photography">
+            <div class="card-body">
+              <h5 class="card-title">Photography</h5>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col">
+        <div class="gridcard">
+          <a href="#" class="imagelink">
+            <img src="https://s.udemycdn.com/home/top-categories/lohp-category-music-v2.jpg" alt="Music">
+            <div class="card-body">
+              <h5 class="card-title">Music</h5>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container text-center" id="smallscreengrid">
+    <div class="row row-cols-1">
+      <div class="col">
+        <div class="gridcard">
+          <a href="#" class="imagelink">
+            <img src="https://s.udemycdn.com/home/top-categories/lohp-category-design-v2.jpg" alt="Design">
+            <div class="card-body">
+              <h5 class="card-title">Design</h5>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col">
+        <div class="gridcard">
+          <a href="#" class="imagelink">
+            <img src="https://s.udemycdn.com/home/top-categories/lohp-category-development-v2.jpg" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Development</h5>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col">
+        <div class="gridcard">
+          <a href="#" class="imagelink">
+            <img src="https://s.udemycdn.com/home/top-categories/lohp-category-marketing-v2.jpg" alt="Marketing">
+            <div class="card-body">
+              <h5 class="card-title">Marketing</h5>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col">
+        <div class="gridcard">
+          <a href="#" class="imagelink">
+            <img src="https://s.udemycdn.com/home/top-categories/lohp-category-it-and-software-v2.jpg"
+              alt="IT and Software">
+            <div class="card-body">
+              <h5 class="card-title">IT and Software</h5>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col">
+        <div class="gridcard">
+          <a href="#" class="imagelink">
+            <img src="https://s.udemycdn.com/home/top-categories/lohp-category-personal-development-v2.jpg"
+              alt="Personal Development">
+            <div class="card-body">
+              <h5 class="card-title">Personal Development</h5>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col">
+        <div class="gridcard">
+          <a href="#" class="imagelink">
+            <img src="https://s.udemycdn.com/home/top-categories/lohp-category-business-v2.jpg" alt="Business">
+            <div class="card-body">
+              <h5 class="card-title">Business</h5>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col">
+        <div class="gridcard">
+          <a href="#" class="imagelink">
+            <img src="https://s.udemycdn.com/home/top-categories/lohp-category-photography-v2.jpg" alt="Photography">
+            <div class="card-body">
+              <h5 class="card-title">Photography</h5>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col">
+        <div class="gridcard">
+          <a href="#" class="imagelink">
+            <img src="https://s.udemycdn.com/home/top-categories/lohp-category-music-v2.jpg" alt="Music">
+            <div class="card-body">
+              <h5 class="card-title">Music</h5>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-<script src="script.js"></script>
+<script src="script.js" async></script>
 
 </html>

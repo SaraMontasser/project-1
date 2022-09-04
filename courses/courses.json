@@ -2,416 +2,551 @@
   "courses": [
     {
       "id": 1,
+      "category":"python",
       "title": "Learn Python: The Complete Python Programming Course",
       "author": "Avinash Jain, The Codex",
       "rate": 4.4,
       "reviewers": "(2,923)",
       "image": "https://img-b.udemycdn.com/course/240x135/394676_ce3d_5.jpg",
-      "price": "E£679.99"
+      "price": "E£679.99",
+      "oldPrice": "E£ 1,599.99"
     },
     {
-      "id": 2,
+      "id": 1,
+      "category":"python",
       "title": "Learning Python for Data Analysis and Visualization",
       "author": "Jose Portilla",
       "rate": 4.4,
       "reviewers": "(2,923)",
       "image": "https://img-b.udemycdn.com/course/240x135/396876_cc92_7.jpg",
-      "price": "E£1,599.99"
+      "price": "E£1,599.99",
+      "oldPrice": "E£ 1,599.99"
     },
     {
-      "id": 3,
+      "id": 1,
+      "category":"python",
       "title": "Python for Beginners - Learn Programming from scratch",
       "author": "Jose Portilla",
       "rate": 4.4,
       "reviewers": "(2,923)",
       "image": "https://img-b.udemycdn.com/course/480x270/405878_e5a0_3.jpg",
-      "price": "E£679.99"
+      "price": "E£679.99",
+      "oldPrice": "E£ 1,599.99"
     },
     {
-      "id": 4,
+      "id": 1,
+      "category":"python",
       "title": "Learn Python: Python for Beginners",
       "author": "Avinash Jain, The Codex",
       "rate": 4.4,
       "reviewers": "(2,923)",
       "image": "https://img-b.udemycdn.com/course/240x135/426570_1b91_3.jpg",
-      "price": "E£319,99"
+      "price": "E£319,99",
+      "oldPrice": "E£ 1,599.99"
     },
     {
-      "id": 5,
+      "id": 1,
+      "category":"python",
       "title": "Python Beyond the Basics - Object-Oriented Programming",
       "author": "Avinash Jain, The Codex",
       "rate": 4.4,
       "reviewers": "(2,923)",
       "image": "https://img-b.udemycdn.com/course/240x135/449532_2aa9_7.jpg",
-      "price": "E£519,9"
+      "price": "E£519,9",
+      "oldPrice": "E£ 1,599.99"
     },
     {
-      "id": 6,
+      "id": 1,
+      "category":"python",
       "title": "Python From Scratch & Selenium WebDriver QA Automation 2022",
       "author": "Admas Kinfu",
       "rate": 4.6,
       "reviewers": "(1,825)",
       "image": "https://img-c.udemycdn.com/course/240x135/482754_7146_6.jpg",
-      "price": "E£269,99"
+      "price": "E£269,99",
+      "oldPrice": "E£ 1,599.99"
     },
     {
-      "id": 7,
+      "id": 1,
+      "category":"python",
       "title": "Teach Your Kids to Code: Learn to Program Python at Any Age!",
       "author": "Bryson Payne",
       "rate": 4.5,
       "reviewers": "(8,816)",
       "image": "https://img-b.udemycdn.com/course/240x135/394676_ce3d_5.jpg",
-      "price": "E£679.99"
+      "price": "E£679.99",
+      "oldPrice": "E£ 1,599.99"
     },
     {
-      "id": 8,
+      "id": 1,
+      "category":"python",
       "title": "Learn Python: The Complete Python Programming Course",
       "author": "Avinash Jain, The Codex",
       "rate": 4.4,
       "reviewers": "(2,923)",
       "image": "https://img-c.udemycdn.com/course/240x135/519554_da68_6.jpg",
-      "price": "E£679.99"
+      "price": "E£679.99",
+      "oldPrice": "E£ 1,599.99"
     },
     {
-      "id": 9,
+      "id": 1,
+      "category":"python",
       "title": "Teach Your Kids to Code: Learn to Program Python at Any Age!",
       "author": "Bryson Payne",
       "rate": 4.5,
       "reviewers": "(8,816)",
       "image": "https://img-b.udemycdn.com/course/240x135/394676_ce3d_5.jpg",
-      "price": "E£679.99"
+      "price": "E£679.99",
+      "oldPrice": "E£ 1,599.99"
     },
     {
-      "id": 10,
+      "id": 1,
+      "category":"python",
       "title": "Learn Python: Python for Beginners",
       "author": "Avinash Jain, The Codex",
       "rate": 4.4,
       "reviewers": "(2,923)",
       "image": "https://img-b.udemycdn.com/course/240x135/426570_1b91_3.jpg",
-      "price": "E£319,99"
+      "price": "E£319,99",
+      "oldPrice": "E£ 1,599.99"
     },
     {
-      "id": 11,
+      "id": 2,
+      "category":"excel",
       "title": "The Ultimate Excel Programmer Course",
       "author": "Daniel Strong",
       "rate": 4.6,
       "reviewers": "(2,923)",
       "image": "https://img-c.udemycdn.com/course/240x135/164058_e914_2.jpg",
-      "price": "E£179.99"
+      "price": "E£179.99",
+      "oldPrice": "E£ 1,599.99"
     },
     {
-      "id": 12,
+      "id": 2,
+      "category":"excel",
       "title": "Excel Data Analysis For Dummies",
       "author": "John Wiley & Sons",
       "rate": 4.4,
       "reviewers": "(1,118)",
       "image": "https://img-c.udemycdn.com/course/240x135/185916_4868_2.jpg",
-      "price": "E£179.99"
+      "price": "E£179.99",
+      "oldPrice": "E£ 1,599.99"
     },
     {
-      "id": 14,
+      "id": 2,
+      "category":"excel",
       "title": "Excel Shortcuts, Excel Tips, Excel Tricks - Excel Skills!",
       "author": "365 Careers",
       "rate": 4.6,
       "reviewers": "(2,923)",
       "image": "https://img-c.udemycdn.com/course/240x135/321410_d9c5_4.jpg",
-      "price": "E£11,352"
+      "price": "E£11,352",
+      "oldPrice": "E£ 1,599.99"
     },
     {
-      "id": 15,
+      "id": 2,
+      "category":"excel",
       "title": "Excel Hacking",
       "author": "Daniel Strong",
       "rate": 4.6,
       "reviewers": "(2,923)",
       "image": "https://img-c.udemycdn.com/course/240x135/386004_e0da_8.jpg",
-      "price": "E£179.99"
+      "price": "E£179.99",
+      "oldPrice": "E£ 1,599.99"
     },
     {
-      "id": 16,
+      "id": 2,
+      "category":"excel",
       "title": "Master Microsoft Excel, PowerPoint and Word 2013 - 27 Hours",
       "author": "John Wiley & Sons",
       "rate": 4.4,
       "reviewers": "(1,118)",
       "image": "https://img-c.udemycdn.com/course/480x270/463830_187e.jpg",
-      "price": "E£179.99"
+      "price": "E£179.99",
+      "oldPrice": "E£ 1,599.99"
     },
     {
-      "id": 17,
+      "id": 2,
+      "category":"excel",
       "title": "Microsoft Excel 2013 Course Beginners/ Intermediate Training",
       "author": "Infinite Skills",
       "rate": 4.5,
       "reviewers": "(2,923)",
       "image": "https://img-c.udemycdn.com/course/240x135/31535_e351_7.jpg",
-      "price": "E£149.99"
+      "price": "E£149.99",
+      "oldPrice": "E£ 1,599.99"
     },
     {
-      "id": 18,
+      "id": 2,
+      "category":"excel",
       "title": "Microsoft Excel 2013  Advanced. Online Excel Training Course",
       "author": "Infinite Skills",
       "rate": 4.5,
       "reviewers": "(3,518)",
       "image": "https://img-c.udemycdn.com/course/480x270/463830_187e.jpg",
-      "price": "E£169.99"
+      "price": "E£169.99",
+      "oldPrice": "E£ 1,599.99"
     },
     {
-      "id": 17,
+      "id": 2,
+      "category":"excel",
       "title": "Microsoft Excel 2013 Course Beginners/ Intermediate Training",
       "author": "Infinite Skills",
       "rate": 4.5,
       "reviewers": "(2,923)",
       "image": "https://img-c.udemycdn.com/course/240x135/31535_e351_7.jpg",
-      "price": "E£149.99"
+      "price": "E£149.99",
+      "oldPrice": "E£ 1,599.99"
     },
     {
-      "id": 18,
+      "id": 2,
+      "category":"excel",
       "title": "Microsoft Excel 2013  Advanced. Online Excel Training Course",
       "author": "Infinite Skills",
       "rate": 4.5,
       "reviewers": "(3,518)",
       "image": "https://img-c.udemycdn.com/course/480x270/463830_187e.jpg",
-      "price": "E£169.99"
+      "price": "E£169.99",
+      "oldPrice": "E£ 1,599.99"
     },
     {
-      "id": 19,
+      "id": 3,
+      "category":"web",
       "title": "Become a Certified HTML, CSS, JavaScript Web Developer",
       "author": "Infinite Skills",
       "rate": 4.5,
       "reviewers": "(3,518)",
       "image": "https://img-c.udemycdn.com/course/480x270/11475_9dac_14.jpg",
-      "price": "E£169.99"
+      "price": "E£169.99",
+      "oldPrice": "E£ 1,599.99"
     },
     {
-      "id": 20,
+      "id": 3,
+      "category":"web",
       "title": "The Complete 2020 Fullstack Web Developer Course",
       "author": "Infinite Skills",
       "rate": 4.5,
       "reviewers": "(2,923)",
       "image": "https://img-c.udemycdn.com/course/480x270/19332_6b49_15.jpg",
-      "price": "E£149.99"
+      "price": "E£149.99",
+      "oldPrice": "E£ 1,599.99"
     },
     {
-      "id": 21,
+      "id": 3,
+      "category":"web",
       "title": "Introduction to Web Development",
       "author": "Tech Learning Network",
       "rate": 4.3,
       "reviewers": "(1,518)",
       "image": "https://img-c.udemycdn.com/course/240x135/446134_383c_3.jpg",
-      "price": "E£129.99"
+      "price": "E£129.99",
+      "oldPrice": "E£ 1,599.99"
     },
     {
-      "id": 22,
+      "id": 3,
+      "category":"web",
       "title": "Running a Web Development Business: The Complete Guide",
       "author": "Infinite Skills",
       "rate": 4.5,
       "reviewers": "(2,923)",
       "image": "https://img-c.udemycdn.com/course/240x135/99986_6cb4_10.jpg",
-      "price": "E£149.99"
+      "price": "E£149.99",
+      "oldPrice": "E£ 1,599.99"
     },
     {
-      "id": 23,
+      "id": 3,
+      "category":"web",
       "title": "Introduction to Web Development",
       "author": "Tech Learning Network",
       "rate": 4.8,
       "reviewers": "(1,518)",
       "image": "https://img-c.udemycdn.com/course/240x135/369662_7246_2.jpg",
-      "price": "E£129.99"
+      "price": "E£129.99",
+      "oldPrice": "E£ 1,599.99"
     },
     {
-      "id": 24,
+      "id": 3,
+      "category":"web",
+      "title": "The Complete 2020 Fullstack Web Developer Course",
+      "author": "Infinite Skills",
+      "rate": 4.5,
+      "reviewers": "(2,923)",
+      "image": "https://img-c.udemycdn.com/course/480x270/19332_6b49_15.jpg",
+      "price": "E£149.99",
+      "oldPrice": "E£ 1,599.99"
+    },
+    {
+      "id": 4,
+      "category":"java",
       "title": "JavaScript for Beginners",
       "author": "Infinite Skills",
       "rate": 4.5,
       "reviewers": "(2,923)",
       "image": "https://img-c.udemycdn.com/course/480x270/8324_fa84_13.jpg",
-      "price": "E£149.99"
+      "price": "E£149.99",
+      "oldPrice": "E£ 1,599.99"
     },
     {
-      "id": 25,
+      "id": 4,
+      "category":"java",
       "title": "1 Hour JavaScript",
       "author": "Tech Learning Network",
       "rate": 4.8,
       "reviewers": "(1,518)",
       "image": "https://img-c.udemycdn.com/course/480x270/63612_8797_4.jpg",
-      "price": "E£129.99"
+      "price": "E£129.99",
+      "oldPrice": "E£ 1,599.99"
     },
     {
-      "id": 26,
+      "id": 4,
+      "category":"java",
       "title": "JavaScript for Beginners",
       "author": "Infinite Skills",
       "rate": 4.5,
       "reviewers": "(2,923)",
       "image": "https://img-c.udemycdn.com/course/480x270/364426_2991_6.jpg",
-      "price": "E£149.99"
+      "price": "E£149.99",
+      "oldPrice": "E£ 1,599.99"
     },
     {
-      "id": 27,
+      "id": 4,
+      "category":"java",
       "title": "1 Hour JavaScript",
       "author": "Tech Learning Network",
       "rate": 4.8,
       "reviewers": "(1,518)",
       "image": "https://img-c.udemycdn.com/course/480x270/426196_3cb8_4.jpg",
-      "price": "E£129.99"
+      "price": "E£129.99",
+      "oldPrice": "E£ 1,599.99"
     },
     {
-      "id": 28,
+      "id": 4,
+      "category":"java",
       "title": "JavaScript: Understanding the Weird Parts",
       "author": "Tech Learning Network",
       "rate": 4.7,
       "reviewers": "(1,518)",
       "image": "https://img-c.udemycdn.com/course/480x270/405818_aa3f_3.jpg",
-      "price": "E£199.99"
+      "price": "E£199.99",
+      "oldPrice": "E£ 1,599.99"
     },
     {
-      "id": 29,
+      "id": 5,
+      "category":"data",
       "title": "Data Science A-Z™: Real-Life Data Science Exercises Included",
       "author": "Tech Learning Network",
       "rate": 4.6,
       "reviewers": "(1,518)",
       "image": "https://img-c.udemycdn.com/course/480x270/513244_b831_4.jpg",
-      "price": "E£169.99"
+      "price": "E£169.99",
+      "oldPrice": "E£ 1,599.99"
     },
     {
-      "id": 30,
+      "id": 4,
+      "category":"java",
+      "title": "JavaScript for Beginners",
+      "author": "Infinite Skills",
+      "rate": 4.5,
+      "reviewers": "(2,923)",
+      "image": "https://img-c.udemycdn.com/course/480x270/8324_fa84_13.jpg",
+      "price": "E£149.99",
+      "oldPrice": "E£ 1,599.99"
+    },
+    {
+      "id": 5,
+      "category":"data",
       "title": "Machine Learning, Data Science and Deep Learning with Python",
       "author": "Tech Learning Network",
       "rate": 4.7,
       "reviewers": "(1,518)",
       "image": "https://img-c.udemycdn.com/course/480x270/671576_a272_4.jpg",
-      "price": "E£149.99"
+      "price": "E£149.99",
+      "oldPrice": "E£ 1,599.99"
     }
     ,
     {
-      "id": 31,
+      "id": 5,
+      "category":"data",
       "title": "Data Science: Deep Learning and Neural Networks in Python",
       "author": "Tech Learning Network",
       "rate": 4.6,
       "reviewers": "(1,518)",
       "image": "https://img-c.udemycdn.com/course/480x270/713104_d4cb.jpg",
-      "price": "E£149.99"
+      "price": "E£149.99",
+      "oldPrice": "E£ 1,599.99"
     },
     {
-      "id": 32,
+      "id": 5,
+      "category":"data",
       "title": "R Programming A-Z™: R For Data Science With Real Exercises!"  ,
       "author": "Tech Learning Network",
       "rate": 4.7,
       "reviewers": "(1,518)",
       "image": "https://img-c.udemycdn.com/course/480x270/765242_2578_6.jpg",
-      "price": "E£179.99"
+      "price": "E£179.99",
+      "oldPrice": "E£ 1,599.99"
     }
     ,
     {
-      "id": 33,
+      "id": 5,
+      "category":"data",
       "title": "Data Science and Machine Learning Bootcamp with R",
       "author": "Tech Learning Network",
       "rate": 4.8,
       "reviewers": "(1,518)",
       "image": "https://img-c.udemycdn.com/course/480x270/821726_8071.jpg",
-      "price": "E£199.99"
+      "price": "E£199.99",
+      "oldPrice": "E£ 1,599.99"
     },
     {
-      "id": 34,
+      "id": 5,
+      "category":"data",
+      "title": "Machine Learning, Data Science and Deep Learning with Python",
+      "author": "Tech Learning Network",
+      "rate": 4.7,
+      "reviewers": "(1,518)",
+      "image": "https://img-c.udemycdn.com/course/480x270/671576_a272_4.jpg",
+      "price": "E£149.99",
+      "oldPrice": "E£ 1,599.99"
+    }
+    ,
+    {
+      "id": 6,
+      "category":"aws",
       "title": "AWS Certified 2022 - 4 Certifications!",
       "author": "Tech Learning Network",
       "rate": 4.5,
       "reviewers": "(1,518)",
       "image": "https://img-c.udemycdn.com/course/480x270/1047846_83ef_29.jpg",
-      "price": "E£169.99"
+      "price": "E£169.99",
+      "oldPrice": "E£ 1,599.99"
     }
     ,
     {
-      "id": 35,
+      "id": 6,
+      "category":"aws",
       "title": "AWS Certified Security Specialty 2022",
       "author": "Tech Learning Network",
       "rate": 4.7,
       "reviewers": "(1,518)",
       "image": "https://img-c.udemycdn.com/course/480x270/1102458_d6e6_2.jpg",
-      "price": "E£349.99"
+      "price": "E£349.99",
+      "oldPrice": "E£ 1,599.99"
     }
     ,
     {
-      "id": 36,
+      "id": 6,
+      "category":"aws",
       "title": "Part 1: AWS Certified Solutions Architect SAA C03 [Updated]",
       "author": "Tech Learning Network",
       "rate": 4.7,
       "reviewers": "(1,518)",
       "image": "https://img-c.udemycdn.com/course/480x270/1135330_0e31_10.jpg",
-      "price": "E£149.99"
+      "price": "E£149.99",
+      "oldPrice": "E£ 1,599.99"
     }
     ,
     {
-      "id": 37,
+      "id": 6,
+      "category":"aws",
       "title": "Practice Test AWS Solutions Architect Associate SAA C03",
       "author": "Tech Learning Network",
       "rate": 4.7,
       "reviewers": "(1,518)",
       "image": "https://img-c.udemycdn.com/course/480x270/1162310_5ee3_4.jpg",
-      "price": "E£149.99"
+      "price": "E£149.99",
+      "oldPrice": "E£ 1,599.99"
     }
     ,
     {
-      "id": 38,
+      "id": 6,
+      "category":"aws",
+      "title": "AWS Certified 2022 - 4 Certifications!",
+      "author": "Tech Learning Network",
+      "rate": 4.5,
+      "reviewers": "(1,518)",
+      "image": "https://img-c.udemycdn.com/course/480x270/1047846_83ef_29.jpg",
+      "price": "E£169.99",
+      "oldPrice": "E£ 1,599.99"
+    }
+    ,
+    {
+      "id": 6,
+      "category":"aws",
       "title": "AWS Certified Solution Architect - Associate",
       "author": "Tech Learning Network",
       "rate": 4.7,
       "reviewers": "(1,518)",
       "image": "https://img-c.udemycdn.com/course/480x270/1236626_b910_4.jpg",
-      "price": "E£149.99"
+      "price": "E£149.99",
+      "oldPrice": "E£ 1,599.99"
     } ,
     {
-      "id": 39,
+      "id": 7,
+      "category":"draw",
       "title": "The Secrets to Drawing",
       "author": "Tech Learning Network",
       "rate": 4.7,
       "reviewers": "(1,518)",
       "image": "https://img-c.udemycdn.com/course/480x270/137230_76b8_2.jpg",
-      "price": "E£149.99"
+      "price": "E£149.99",
+      "oldPrice": "E£ 1,599.99"
     }
     ,
     {
-      "id": 40,
+      "id": 7,
+      "category":"draw",
       "title": "Drawing and Sketching for Beginners",
       "author": "Tech Learning Network",
       "rate": 4.7,
       "reviewers": "(1,518)",
       "image": "https://img-c.udemycdn.com/course/480x270/1236626_b910_4.jpg",
-      "price": "E£149.99"
+      "price": "E£149.99",
+      "oldPrice": "E£ 1,599.99"
     },
     {
-      "id": 41,
-      "title": "Practice Test AWS Solutions Architect Associate SAA C03",
-      "author": "Tech Learning Network",
-      "rate": 4.7,
-      "reviewers": "(1,518)",
-      "image": "https://img-c.udemycdn.com/course/480x270/1162310_5ee3_4.jpg",
-      "price": "E£149.99"
-    }
-    ,
-    {
-      "id": 42,
-      "title": "Building Confidence Through Drawing: Art for Beginners",
-      "author": "Tech Learning Network",
-      "rate": 4.7,
-      "reviewers": "(1,518)",
-      "image": "https://img-c.udemycdn.com/course/480x270/633084_1961_2.jpg",
-      "price": "E£149.99"
-    },
-    {
-      "id": 43,
+      "id": 7,
+      "category":"draw",
       "title": "Art for Kids & Beginners: 15 Easy Drawing & Painting Lessons",
       "author": "Tech Learning Network",
       "rate": 4.6,
       "reviewers": "(1,518)",
       "image": "https://img-c.udemycdn.com/course/480x270/670050_69ff_3.jpg",
-      "price": "E£149.99"
+      "price": "E£149.99",
+      "oldPrice": "E£ 1,599.99"
     },
     {
-      "id": 44,
+      "id": 7,
+      "category":"draw",
+      "title": "Building Confidence Through Drawing: Art for Beginners",
+      "author": "Tech Learning Network",
+      "rate": 4.7,
+      "reviewers": "(1,518)",
+      "image": "https://img-c.udemycdn.com/course/480x270/633084_1961_2.jpg",
+      "price": "E£149.99",
+      "oldPrice": "E£ 1,599.99"
+    },
+    {
+      "id": 7,
+      "category":"draw",
+      "title": "Art for Kids & Beginners: 15 Easy Drawing & Painting Lessons",
+      "author": "Tech Learning Network",
+      "rate": 4.6,
+      "reviewers": "(1,518)",
+      "image": "https://img-c.udemycdn.com/course/480x270/670050_69ff_3.jpg",
+      "price": "E£149.99",
+      "oldPrice": "E£ 1,599.99"
+    },
+    {
+      "id": 7,
+      "category":"draw",
       "title": "The Ultimate Drawing Course - Beginner to Advanced",
       "author": "Tech Learning Network",
       "rate": 4.6,
       "reviewers": "(1,518)",
       "image": "https://img-c.udemycdn.com/course/480x270/874012_c7f2_3.jpg",
-      "price": "E£149.99"
+      "price": "E£149.99",
+      "oldPrice": "E£ 1,599.99"
     }
   ]
 }

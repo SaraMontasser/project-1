@@ -1,6 +1,6 @@
 body {
     overflow-x: hidden;
-    display: contents;
+    /* display: contents; */
 }
 
 .logo {
@@ -199,16 +199,21 @@ body {
 }
 
 
-.courses {
+.nav-link {
     background-color: white;
     padding: 5px;
     font-size: 15px;
     font-weight: bold;
-    border: none;
+    border: none !important;
     text-decoration: none;
-    color: black;
+    color: black !important;
     display: inline-block;
-    margin-left: 5.8rem;
+}
+.nav-tabs {
+    border: none !important;
+}
+.nav {
+    justify-content: space-between;
 }
 
 .coursesblocks {
@@ -216,8 +221,12 @@ body {
     border-style: solid;
     border-width: 0.1rem;
     padding: 1rem 0rem 1rem 2rem;
-    margin: 2% auto;
+    margin-top: 2% !important;
     width: 87vw;
+    margin-left: -3rem;
+}
+.container{
+    margin-left: 3.5rem !important;
 }
 
 .word {
@@ -235,8 +244,8 @@ body {
     color: black;
     border-style: solid;
     border-width: 0.1rem;
-    display: block;
-    width: 8rem;
+    /* display: block; */
+    /* width: 8rem; */
 }
 
 .coursesboxes {
@@ -389,7 +398,9 @@ a {
 .topcategories{
     font-size: 20px;
     font-weight: bold;
-    margin-left: 6rem;
+    margin-left: 5.5rem;
+    margin-top: 6rem;
+    margin-bottom: 5rem;
 }
 .carousel-control-prev,.carousel-control-next{
     width: 3vw !important;
@@ -398,7 +409,9 @@ a {
     opacity: 1 !important;
     border-radius: 50%;
     color: white !important;
-    font-size: 1rem !important;
+    margin-top: 5rem;
+    margin-left: -1rem;
+    margin-right: 0.8rem;
 }
 .carousel-control-prev-icon,.carousel-control-next-icon{
     filter: none !important;
